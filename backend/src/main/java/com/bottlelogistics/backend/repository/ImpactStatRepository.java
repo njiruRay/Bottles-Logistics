@@ -1,0 +1,10 @@
+package com.bottlelogistics.backend.repository;
+
+import com.bottlelogistics.backend.model.ImpactStat;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ImpactStatRepository extends JpaRepository<ImpactStat, Long> {
+    List<ImpactStat> findByCategoryAndActiveTrueOrderByDisplayOrderAsc(String category);
+}
