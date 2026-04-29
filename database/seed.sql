@@ -81,7 +81,7 @@ VALUES
 INSERT INTO partners 
 (name, logo_url, website_url, display_order, active)
 VALUES
-('Aquamist', '/images/aqua(1).png', '#', 1, TRUE),
-('Coca-Cola', '/images/coke(1).png', '#', 2, TRUE),
-('KWAL', '/images/kwal(1).jpg', '#', 3, TRUE),
-('Heineken', NULL, '#', 4, TRUE);
+('Aquamist', '/images/aqua.png', '#', 1, TRUE),
+('Coca-Cola', '/images/coke.png', '#', 2, TRUE),
+('KWAL', '/images/kwal.jpg', '#', 3, TRUE),
+('Heineken', '/images/heinken.png', '#', 4, TRUE);

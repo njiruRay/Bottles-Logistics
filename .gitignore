@@ -1,6 +1,13 @@
-frontend/
+# Ignore build & dependencies
 backend/target/
+frontend/node_modules/
+
+# IDE files
 backend/.idea/
+
+# Maven wrapper jar (optional to ignore)
 backend/.mvn/wrapper/maven-wrapper.jar
+
+# Logs & env
 *.log
 .env
